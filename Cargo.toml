@@ -1,0 +1,14 @@
+[package]
+name = "error_spanned"
+version = "0.1.0"
+authors = ["Mihir Luthra <luthramihir708@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+error_spanned_derive = {path = "./error_spanned_derive"}
+proc-macro2 = "1.0.27"
+syn = "1.0.73"
+
+[dev-dependencies]
+proc-macro2 = "1.0.27"
+trybuild = "1.0.42"
