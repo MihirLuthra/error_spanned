@@ -12,7 +12,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/MihirLuthra/error_spanned"
 
 [dependencies]
-error_spanned_derive = {path = "./error_spanned_derive"}
+error_spanned_derive = "0.1.0"
 proc-macro2 = "1.0.27"
 syn = "1.0.73"
 
