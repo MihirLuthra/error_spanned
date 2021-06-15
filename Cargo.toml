@@ -3,6 +3,13 @@ name = "error_spanned"
 version = "0.1.0"
 authors = ["Mihir Luthra <luthramihir708@gmail.com>"]
 edition = "2018"
+description = """
+Generates wrapper structs and macros around an enum implementing std::error::Error.
+Generated macros can be used to add line, file and span info to the enum's error. This is meant
+to be used inside proc macro libs.
+"""
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/MihirLuthra/error_spanned"
 
 [dependencies]
 error_spanned_derive = {path = "./error_spanned_derive"}

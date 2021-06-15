@@ -9,6 +9,7 @@ Generated macros can be used to add line, file and span info to the enum's error
 to be used inside proc macro libs.
 """
 license = "MIT OR Apache-2.0"
+repository = "https://github.com/MihirLuthra/error_spanned"
 
 [lib]
 proc-macro = true
